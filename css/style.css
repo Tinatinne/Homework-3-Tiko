@@ -70,8 +70,9 @@ P {
 	vertical-align: middle;
 }
 .box-27 {
-	width: 56px;
-    height: 56px;
+	width: 50px;
+    height: 50px;
+	margin-top: 40px;
     background-color: #3D58A6;
 
 }
@@ -105,7 +106,9 @@ P {
 .flex-center {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	vertical-align: top;
+	margin-top: 30px;
+	justify-content: space-between;
 }
 
 .info {
@@ -119,13 +122,29 @@ P {
 
 .details {
 	color: #000000;
-
 	margin-left: 3px;
 }
 
 .maps-container {
+	width: 1366px;
+	height: 570px;
+	margin: 0 auto;
+	background-color: lightsteelblue;
+	margin-top: 30px;
+}
+
+.iframe-details {
+	display: inline-block;
+	vertical-align: top;
+	width: 874px;
+	height: 366px;
+	margin-left: 300px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: ;
+}
+
+.map-details {
 	display: flex;
 	justify-content: space-between;
 }
-
-/* test commit */
